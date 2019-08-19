@@ -1,0 +1,14 @@
+pre-commit:
+  commands:
+    mdl:
+      glob: "**/*.md"
+      run: mdl {staged_files}
+    liche:
+      glob: "**/*.md"
+      run: liche -r docs
+    forspell:
+      glob: "**/*.md"
+      run: forspell {staged_files}
+    rubocop:
+      glob: "**/*.md"
+      run: "rubocop {staged_files}"
