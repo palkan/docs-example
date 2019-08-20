@@ -1,6 +1,6 @@
 # Config Example
 
-We're using [anyway_config](https://github.com/palkan/anyway_config) to deal with configuraiton.
+We're using [anyway_config](https://github.com/palkan/anyway_config) to deal with configuration.
 
 ## Example
 
