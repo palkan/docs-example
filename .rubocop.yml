@@ -7,3 +7,6 @@ inherit_gem:
 
 Standard/SemanticBlocks:
   Enabled: false
+
+Lint/DuplicateMethods:
+  Enabled: false

@@ -15,7 +15,7 @@ First, we create a configuration class for this service:
 class AwsConfig < ApplicationConfig
   attr_config :access_key_id, :secret_access_key, :bucket,
               # we can set default right here
-              region: "us-east-1"
+    region: "us-east-1"
 end
 ```
 

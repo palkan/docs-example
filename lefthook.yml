@@ -5,7 +5,7 @@ pre-commit:
       run: mdl {staged_files}
     liche:
       glob: "**/*.md"
-      run: liche -r docs
+      run: liche -r docs -d docs
     forspell:
       glob: "**/*.md"
       run: forspell {staged_files}
