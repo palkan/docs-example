@@ -8,7 +8,7 @@ To automate local development we use Git hooks managed by [LeftHook](https://git
 
 - Install lefthook (see [Readme](https://github.com/Arkweid/lefthook) for instructions).
 
-For example, via Hombrew:
+For example, via Homebrew:
 
 ```sh
 brew install Arkweid/lefthook/lefthook
@@ -70,4 +70,4 @@ Use the standard Git option `--no-verify` to skip `pre-commit` and `commit-msg` 
 git commit -m "..." --no-verify
 ```
 
-Use `LEFTHOOK_EXCLUDE=<tag>` to exclude only the specific tags or use `LEFTHOOK=0` to disable all LeftHook hooks.
+Use `LEFTHOOK_EXCLUDE=[tag]` to exclude only the specific tags or use `LEFTHOOK=0` to disable all LeftHook hooks.
